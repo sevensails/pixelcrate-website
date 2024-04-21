@@ -1,90 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pixel Crate Games</title>
     <style>
-        body {
-            text-align: center;
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
-            margin: 0;
-            padding: 0;
-        }
+      body {
+        text-align: center;
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        margin: 0;
+        padding: 0;
+      }
 
-        #underConstruction {
-            padding: 20px;
-        }
+      #underConstruction {
+        padding: 20px;
+      }
 
-        #logo {
-            max-width: 100%;
-            height: auto;
-        }
+      #logo {
+        max-width: 100%;
+        height: auto;
+      }
 
-        #partnerLogo {
-            max-width: 100%;
-            margin-top: 20px;
-        }
+      #partnerLogo {
+        max-width: 100%;
+        margin-top: 20px;
+      }
 
-        #whatWeDo,
-        #distribute,
-        #contact {
-            padding: 20px;
-            background-color: #ddd;
-            margin-top: 20px;
-        }
+      #whatWeDo,
+      #distribute,
+      #contact {
+        padding: 20px;
+        background-color: #ddd;
+        margin-top: 20px;
+      }
 
-        #contactBox {
-            background-color: #eee;
-            padding: 10px;
-            margin-top: 20px;
-        }
+      #contactBox {
+        background-color: #eee;
+        padding: 10px;
+        margin-top: 20px;
+      }
 
-        footer {
-            background-color: #333;
-            color: #fff;
-            padding: 10px;
-        }
+      footer {
+        background-color: #333;
+        color: #fff;
+        padding: 10px;
+      }
     </style>
-</head>
-
-<body>
+    <script src="app.js"></script>
+  </head>
+  <body>
     <div id="underConstruction">
-        <img id="logo" src="pixelcrate_logo.png" alt="Pixel Crate Games Logo">
+      <img id="logo" src="pixelcrate_logo.png" alt="Pixel Crate Games Logo">
     </div>
-
     <div id="whatWeDo">
-        <h2>What We Do</h2>
-        <img src="what_we_do.jpg" alt="What We Do Banner" style="max-width: 100%;">
-        <p>Pixel Crate provides outsourcing services for art, game programming, and game design. We can also help you find the right partner for providing sound effects and music services.</p>
+      <h2>What We Do</h2>
+      <img src="what_we_do.jpg" alt="What We Do Banner" style="max-width: 100%;">
+      <p>Pixel Crate provides outsourcing services for art, game programming, and game design. We can also help you find the right partner for providing sound effects and music services.</p>
     </div>
-
     <div id="distribute">
-        <h2>Distribute</h2>
-        <img src="contact.jpg" alt="Contact Banner" style="max-width: 100%;">
-        <p>Pixel Crate also provides intermediate services for game publishing on Steam and other stores such as App Store, Google Play, Amazon.</p>
+      <h2>Distribute</h2>
+      <img src="contact.jpg" alt="Contact Banner" style="max-width: 100%;">
+      <p>Pixel Crate also provides intermediate services for game publishing on Steam and other stores such as App Store, Google Play, Amazon.</p>
     </div>
-
     <div id="contact">
-        <h2>Contact</h2>
-        <p>Drop us a line and tell us what you need</p>
-        <div id="contactBox">
-            <a id="de" href="#" style="color: #333;"></a>
-        </div>
+      <h2>Contact</h2>
+      <p>Drop us a line and tell us what you need</p>
+      <div id="contactBox">
+        <a class="email-link" href="#" style="color: #333;"></a>
+      </div>
     </div>
-
     <footer>
-        <p>&copy; 2024 Pixel Crate Games Inc. | <a href="refund.html" style="color: #fff;">Refund Policy</a> | <a href="terms_of_promotion.html" style="color: #fff;">Terms of Promotions</a> | <a href="data_privacy.html" style="color: #fff;">Data Privacy Policy</a></p>
-
-
+      <p>&copy; 2024 Pixel Crate Games Inc. | <a href="refund.html" style="color: #fff;">Refund Policy</a> | <a href="terms_of_promotion.html" style="color: #fff;">Terms of Promotions</a> | <a href="data_privacy.html" style="color: #fff;">Data Privacy Policy</a></p>
     </footer>
-
-    <script>
-        function de(n, t) { const i = atob(n), l = document.getElementById(t); l.href = "mailto:" + i, l.textContent = i } window.onload = function () { de("Y29udGFjdEBwaXhlbGNyYXRlLmdhbWVz", "de") };
-    </script>
-
-</body>
-
+  </body>
 </html>
