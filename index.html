@@ -71,7 +71,7 @@
         <h2>Contact</h2>
         <p>Drop us a line and tell us what you need</p>
         <div id="contactBox">
-            <a href="mailto:contact@pixelcrate.com" style="color: #333;">contact@pixelcrate.com</a>
+            <a id="de" href="#" style="color: #333;"></a>
         </div>
     </div>
 
@@ -80,6 +80,11 @@
 
 
     </footer>
+
+    <script>
+        function de(n, t) { const i = atob(n), l = document.getElementById(t); l.href = "mailto:" + i, l.textContent = i } window.onload = function () { de("Y29udGFjdEBwaXhlbGNyYXRlLmdhbWVz", "de") };
+    </script>
+
 </body>
 
 </html>
